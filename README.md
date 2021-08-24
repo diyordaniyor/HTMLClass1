@@ -1,18 +1,16 @@
-# HTMLClass1
+#Front End Development (Day 1 of 2)
 
-Front End Development (Day 1 of 2)
-
-HTML
+#HTML
  Hypertext Markup Language
 Not a Programming Language
 Used to build structure of website
-CSS
+#CSS
  Cascading Style Sheet Language
 Not a programming language
 Used to style website
-JavaScript
+#JavaScript
  Programming language, add interactivity.
-Objective :
+#Objective :
 Basic idea about how websites are built
 Understand common html tags
 Understand common html attributes
