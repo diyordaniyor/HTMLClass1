@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool Form</title>
+<style>
+    body {
+    background: url("Kufupanda.png" ) no-repeat;
+        background-size: auto;
+    }
+    h1 {
+        color: red;
+        /*background-color: aqua;*/
+        text-align: center;
+    }
+
+    h3 {
+        color: blue;
+    }
+    /*This css selector is saying give me whatever element
+    with the iD of firstName */
+    #firstName {
+        background-color: aqua;
+    }
+
+    #lastName {
+        background-color: yellow;
+    }
+    /* apply style to any input tag with type email   */
+    input[type="email"] {
+        background-color: green;
+    }
+
+    label {
+        color: blue;
+    }
+    /* apply style to
+    any input that is direct child of a div element*/
+    div>input {
+        background-color: black;
+    }
+    /*if you want to apply it for any input element that is child or grand(s) child of the div you can say
+    div input{ style here }*/
+
+    /*
+    apply style of 2nd 3rd h1 element
+    and first h3 element
+    we need to somehow group them together so we can apply style on all of them
+    class attribute in html element can achieve this
+    add class attribute for those 3 elements
+    */
+    .group {
+        background-color: antiquewhite;
+        border-radius: 70px;
+        padding: 10px;
+    }
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<h1 > Sign up form </h1>
+<h1 class="group"> Sign up form </h1>
+<h1 class="group"> Sign up form </h1>
+<h1 > Sign up form </h1>
+<form>
+
+    <label for="firstName"> First name : </label>
+    <input type="text"  id = "firstName"   placeholder="Enter name here"  />
+
+    <br/>
+
+    <label for="lastName" > Last name : </label>
+    <input type="text" id="lastName" />
+
+    <div>
+
+        <label for="company"> Company : </label>
+        <input type="text" id="company" />
+
+    </div>
+
+    <!--        input:text#school-->
+    <label for="school"> School name: </label>
+    <input type="text" name="school_name" id="school" />
+    <br/>
+
+    <label for="email">Email address:</label>
+    <input type="email" name="email_add" id="email">
+
+    <br/>
+
+    <label for="martial_status">Married ? </label>
+    <!--     input:checkbox#martial_status   -->
+    <input type="checkbox" name="martial_status" id="martial_status">
+    <label for="vaccinated"> Vaccinated? </label>
+    <input type="checkbox"  name="got_vaccinated" id="vaccinated">
+
+    <br/>
+    <label for="male"> Male </label>
+    <input type="radio" name="gender" id="male">
+
+    <label for="female"> Female </label>
+    <input type="radio" name="gender" id="female">
+
+    <h3 class="group">Select your car(s)</h3>
+
+    <label for="mercedes">Mercedes</label>
+    <input type="checkbox" name="Mercedes" id="mercedes" />
+
+    <label for="bmw">BMW</label>
+    <input type="checkbox" name="BMW" id="bmw" />
+
+    <label for="toyota">Toyota</label>
+    <input type="checkbox" name="Toyota" id="toyota" />
+
+    <h3>Select your Color</h3>
+    <label for="red">Red : </label>
+    <input type="radio" name="color" id="red">
+
+    <label for="blue">Blue : </label>
+    <input type="radio" name="color" id="blue">
+
+    <label for="green">Green : </label>
+    <input type="radio" name="color" id="green">
+
+    <br/>
+    <label for="passwd">Enter Password: </label>
+    <!--        add password field and re-enter password inputbox   -->
+    <!--        shortcut ->   input:password#passwd  -->
+    <input type="password" name="password" id="passwd">
+    <br/>
+    <label for="re_passwd">Re-Enter Password: </label>
+    <!--        shortcut ->   input:password#re_passwd  -->
+    <input type="password" name="re_password" id="re_passwd">
+
+    <br/>
+    <label for="years_of_exp">Years Of Experience</label>
+    <input type="number" name="YearsOfExperience" id="years_of_exp">
+    <br/>
+
+    <label for="upload">Upload your document</label>
+    <input type="file" name="docs" id="upload">
+
+    <br/>
+
+    <label for="state">Select State: </label>
+    <!--        select#state>option*3 -->
+    <select name="select_state" id="state">
+        <option selected > - </option>
+        <option value="VA"> Virginia</option>
+        <option value="NY">New York</option>
+        <option selected value="CA">California</option>
+    </select>
+
+    <br/>
+    <label for="dateOfBirth">Date of Birth : </label>
+    <!--        input:date#dateOfBirth-->
+    <input type="date" name="dateOfBirth" id="dateOfBirth" />
+
+    <br/>
+
+    <label for="bio">Tell me about yourself</label>
+    <br/>
+    <!--       textarea#bio -->
+    <textarea name="biography" id="bio" cols="35" rows="5"></textarea>
+
+
+    <br/>
+    <!--        input:button#submit_button -->
+    <!--        <input type="button" value="Submit" id="submit_button" />-->
+
+    <button type="submit" id="submit_btn"
+            onclick=" alert('Thanks !! Great Job!!') " > Submit Your Form</button>
+    <!--        button:reset#reset_btn{Reset} -->
+    <button type="reset" id="reset_btn"
+            onclick="confirm('Are you sure ?????')"   >Reset</button>
+
+
+    </form>
+    </body>
+    </html>
