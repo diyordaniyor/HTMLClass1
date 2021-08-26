@@ -22,53 +22,59 @@
 9.Understand how javascript identify elements to add interactivity  
 ### Let’s create our first HTML file
 1.Create a new folder on your Desktop called: HTML_Class  
-Drag and drop into Sublime Text
-Create a new file inside of the HTML_Class folder
-File > New File
-Give it a name myFirstPage.html
-File -> Save as > Select Desktop > Select HTML_Class folder and save
-Navigate to the folder on your desktop and open it with Google Chrome
-you can double click to open and it will open on default browser you have)
-Now it's time to edit the html file in sublime
-Html use this syntax to represent elements on the web
- <tagName> content </tagName>
-in your empty html file , type html and hit tab key on your keyborad and it will generate below skeleton for you
-  <!DOCTYPE html>
-  <html>
-  <head>
+2.Drag and drop into Sublime Text  
+3.Create a new file inside of the HTML_Class folder     
+        i.File > New File   
+4.Give it a name myFirstPage.html  
+5.File -> Save as > Select Desktop > Select HTML_Class folder and save  
+6.Navigate to the folder on your desktop and open it with Google Chrome 
+- you can double click to open and it will open on default browser you have)  
+
+7.Now it's time to edit the html file in sublime  
+i. Html use this syntax to represent elements on the web 
+
+
+       <tagName> content </tagName>  
+ii. in your empty html file , type html and hit tab key on your keyborad and it will generate below skeleton for you  
+
+     <!DOCTYPE html>
+      <html>
+      <head>
        <meta charset="utf-8">
        <title></title>
-  </head>
-  <body>
+       </head>
+      <body>
+      </body>
+      </html>
+8.Type Cool Website in between title tag in line 5     
 
-  </body>
-  </html>
-Type Cool Website in between title tag in line 5
-  <title>Cool Website</title>
-Save it and open again in chrome(refresh) to observe the page title in browser tab has changed to Cool Website
-Now inside body tag line number 8 enter below heading
-<h1>this is my first h1 tag</h1>
-Save the file and refresh chrome to see the change .
-and continue to add more
-Working with HTML in IntelliJ
-IntelliJ has strong support for creating and editing html file and support all emment shortcuts to easily generate html elements.
+    <title>Cool Website</title>  
+9.Save it and open again in chrome(refresh) to observe the page title in browser tab has changed to **Cool Website**   
+10. Now inside body tag line number 8 enter below heading   
 
-You can create a new HTML file literally in any existing project you have and directly see your result inside IntelliJ Preview or browser
+     <h1>this is my first h1 tag</h1>
+11.Save the file and refresh chrome to see the change.  
+12.and continue to add more  
 
-If you want to import the folder you created earlier simply do below
+## Working with HTML in IntelliJ
+IntelliJ has strong support for creating and editing html file and support all emment shortcuts to easily generate html elements.  
 
-From top menu File->Open->Select Desktop-> Select HTML_Class folder
-Click open (do not select file, select HTML_Class Folder)
-Now you will see your html file and can edit directly in familiar IntelliJ environment
-In order to visually see structure of your html file you can go to top menu
-Views -> Tools Windows -> Structure
-Shortcut for mac Command + 7
-Shortcut for win Alt + 7
-IntelliJ or other tools has HTML CSS shortcut tools known as Emmet to make your html less error prone by auto-generating most of the tags and attribute typing for examle :
-h1 + tab -> <h1></h1>
-p*2 + tab ->
-<p></p>
-<p></p>
+You can create a new HTML file literally in any existing project you have and directly see your result inside IntelliJ Preview or browser  
+
+If you want to import the folder you created earlier simply do below 
+1. From top menu File->Open->Select Desktop-> Select HTML_Class folder  
+2. Click open (do not select file, select HTML_Class Folder) 
+3. Now you will see your html file and can edit directly in familiar IntelliJ environment  
+4. In order to visually see structure of your html file you can go to top menu  
+5. *Views -> Tools Windows -> Structure  
+    i. Shortcut for mac Command + 7  
+    ii. Shortcut for win Alt + 7  
+6. IntelliJ or other tools has HTML CSS shortcut tools known as Emmet to make your html less error prone by auto-generating most of the tags and attribute typing for examle :  
+
+        i. h1 + tab-> <h1></h1>
+        ii.p*2 + tab ->
+         * <p></p>
+         * <p></p>
 ul>li*3 + tab
   <ul>
        <li></li>
