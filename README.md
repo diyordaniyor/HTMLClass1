@@ -1,29 +1,27 @@
-# HTMLClass1
+# Front End Development (Day 1 of 2)
+# HTML
 
-Front End Development (Day 1 of 2)
-
-HTML
- Hypertext Markup Language
-Not a Programming Language
-Used to build structure of website
-CSS
- Cascading Style Sheet Language
-Not a programming language
-Used to style website
-JavaScript
- Programming language, add interactivity.
-Objective :
-Basic idea about how websites are built
-Understand common html tags
-Understand common html attributes
-Understand HTML DOM Hierachy
-Build simple structure with common html elemnts
-Add simple styling with common css
-Understand how CSS target elements to add styles
-Extreme basic javascript
-Understand how javascript identify elements to add interactivity
-Let’s create our first HTML file
-Create a new folder on your Desktop called: HTML_Class
+    Hypertext Markup Language
+- Not a Programming Language
+- Used to build structure of website
+# CSS
+    Cascading Style Sheet Language
+- Not a programming language
+- Used to style website
+# JavaScript
+    Programming language, add interactivity.
+### Objective :
+1.Basic idea about how websites are built   
+2.Understand common html tags    
+3.Understand common html attributes  
+4.Understand HTML DOM Hierachy  
+5.Build simple structure with common html elemnts  
+6.Add simple styling with common css  
+7.Understand how CSS target elements to add styles  
+8.Extreme basic javascript  
+9.Understand how javascript identify elements to add interactivity  
+### Let’s create our first HTML file
+1.Create a new folder on your Desktop called: HTML_Class  
 Drag and drop into Sublime Text
 Create a new file inside of the HTML_Class folder
 File > New File
